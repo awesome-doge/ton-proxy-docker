@@ -19,6 +19,7 @@ services:
     secrets: [ adnl, adnl-hex, adnl-private, global-config ]
     ports:
       - "8080:8080"
+    restart: always
 secrets:
   adnl:
     file: private/adnl
